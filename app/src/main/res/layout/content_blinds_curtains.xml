@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_blinds_curtains"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mostafa.fatinapp2.Blinds_curtains"
+    tools:showIn="@layout/app_bar_blinds_curtains">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            app:srcCompat="@drawable/blinds1"
+            android:id="@+id/imgblinds" />
+
+        <TextView
+            android:text="BLINDS AND CURTAINS IN DUBAI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:text="It is our duty that satisfy the needs of our clients. We are a premier curtain and blinds making company in Dubai and we have some of the best blinds in the whole of the United Arab Emirates. Our highly qualified professional team members design the best curtains and various types of sofa upholstery and designs to fulfil our client’s demand and also our products are a medium to decorate their home / Business."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

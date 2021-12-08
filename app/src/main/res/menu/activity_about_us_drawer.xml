@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mostafa.fatinapp2.MainActivity">
+
+    <item android:id="@+id/home"
+        android:title="Home" />
+    <item android:id="@+id/about_u"
+        android:title="About Us" />
+
+
+    <item android:title="Product">
+        <menu>
+            <item android:id="@+id/curtains"
+                android:title="CURTAINS"></item>
+
+            <item android:id="@+id/custom_made_furtaints"
+                android:title="CUSTOM MADE FURTAINTS"></item>
+
+            <item android:id="@+id/window_blind"
+                android:title="WINDOW BLIND"></item>
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/projects"
+            android:title="PROJECTS"
+            android:checkable="false"></item>
+        <item android:id="@+id/our_client"
+            android:title="Our Client"></item>
+        <item android:id="@+id/blog1"
+            android:title="Blog"></item>
+        <item android:id="@+id/contact_us"
+            android:title="Contact Us"></item>
+
+    </group>
+
+
+</menu>
